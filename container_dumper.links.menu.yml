@@ -1,0 +1,4 @@
+container_dumper.settings:
+    title: Container dumper
+    parent: system.admin_config_development
+    route_name: container_dumper.settings

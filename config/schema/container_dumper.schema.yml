@@ -1,0 +1,7 @@
+container_dumper.settings:
+    type: config_object
+    label: Settings
+    mapping:
+        path:
+            type: string
+            label: 'The path to the file in which the container should be dumped, including the filename. The path should be relative to the Drupal root.'

@@ -1,0 +1,7 @@
+container_dumper.settings:
+    path: /admin/config/development/container-dumper
+    defaults:
+        _form: Drupal\container_dumper\Form\SettingsForm
+        _title: Container dumper
+    requirements:
+        _permission: 'administer container dumper settings'

@@ -1,0 +1,5 @@
+name: Container Dumper
+type: module
+description: Dumps the Symfony container to a file for use with static analysers
+core: 8.x
+core_version_requirement: ^8 || ^9
