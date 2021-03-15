@@ -20,6 +20,10 @@ class DumpCompilerPass implements CompilerPassInterface
 
     public function process(ContainerBuilder $container): void
     {
+        if (empty($this->path)) {
+            return;
+        }
+
         $filename = basename($this->path);
         $dirname = DRUPAL_ROOT . DIRECTORY_SEPARATOR . trim(dirname($this->path), DIRECTORY_SEPARATOR);
         $dirname = realpath($dirname);
