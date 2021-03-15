@@ -26,7 +26,6 @@ class DumpCompilerPass implements CompilerPassInterface
 
         $filename = basename($this->path);
         $dirname = DRUPAL_ROOT . DIRECTORY_SEPARATOR . trim(dirname($this->path), DIRECTORY_SEPARATOR);
-        $dirname = realpath($dirname);
 
         if (!is_dir($dirname) && !mkdir($dirname, 0775, true) && !is_dir($dirname)) {
             throw new \RuntimeException(sprintf('Directory "%s" was not created', $dirname));
