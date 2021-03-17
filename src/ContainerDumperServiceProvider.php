@@ -13,9 +13,10 @@ class ContainerDumperServiceProvider implements ServiceProviderInterface
     public function register(ContainerBuilder $container): void
     {
         $config = BootstrapConfigStorageFactory::get()->read('container_dumper.settings');
+        $path = $config['path'] ?? null;
 
         $container->addCompilerPass(
-            new DumpCompilerPass($config['path']),
+            new DumpCompilerPass($path),
             PassConfig::TYPE_BEFORE_REMOVING,
         );
     }
