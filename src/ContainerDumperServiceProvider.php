@@ -17,7 +17,7 @@ class ContainerDumperServiceProvider implements ServiceProviderInterface
 
         $container->addCompilerPass(
             new DumpCompilerPass($path),
-            PassConfig::TYPE_BEFORE_REMOVING,
+            PassConfig::TYPE_BEFORE_REMOVING
         );
     }
 }
