@@ -1,7 +1,7 @@
 {
     "name": "wieni/container_dumper",
     "type": "drupal-module",
-    "description": "Integrate the Usersnap feedback widget with your Drupal website.",
+    "description": "Dumps the Drupal container to a file for use with static analysers.",
     "license": "MIT",
     "authors": [
         {
