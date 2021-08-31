@@ -2,7 +2,7 @@
     "name": "wieni/container_dumper",
     "type": "drupal-module",
     "description": "Dumps the Drupal container to a file for use with static analysers.",
-    "license": "MIT",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Wieni",
