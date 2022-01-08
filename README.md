@@ -38,7 +38,3 @@ All notable changes to this project will be documented in the
 If you discover any security-related issues, please email
 [security@wieni.be](mailto:security@wieni.be) instead of using the issue
 tracker.
-
-## License
-Distributed under the MIT License. See the [LICENSE](LICENSE) file
-for more information.
